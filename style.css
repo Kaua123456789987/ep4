@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+}
+
+body{
+    display: grid;
+    grid-template-areas: 
+    "cc cc cc "
+    "ld mo mo "
+    "pz pz pz "
+    ;
+    gap: 10px;
+    background-color: aqua;
+}
+
+.cabeca{
+    grid-area: cc;
+}
+
+.lado{
+    grid-area: ld;
+}
+
+.meio{
+    grid-area: mo;
+}
+
+.pezinho{
+    grid-area: pz;
+}
+
+.cabeca, .lado, .meio, .pezinho{
+    background-color: black;
+}
