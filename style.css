@@ -10,25 +10,26 @@ body{
     "pz pz pz "
     ;
     gap: 10px;
-    background-color: aqua;
+    background-color: rgb(0, 174, 255);
 }
 
 .cabeca{
     grid-area: cc;
+    background-color: brown;
 }
 
 .lado{
     grid-area: ld;
+    background-color: blueviolet;
 }
 
 .meio{
     grid-area: mo;
+    background-color: blue;
 }
 
 .pezinho{
     grid-area: pz;
+    background-color: rgb(0, 255, 0);
 }
 
-.cabeca, .lado, .meio, .pezinho{
-    background-color: black;
-}
