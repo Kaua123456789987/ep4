@@ -1,12 +1,12 @@
 *{
     margin: 0;
 }
-
+/* aqui fica o grid  */
 body{
     display: grid;
     grid-template-areas: 
     "cc cc cc "
-    "ld mo mo "
+    "mo mo ld "
     "pz pz pz "
     ;
     gap: 10px;
@@ -14,18 +14,18 @@ body{
 }
 
 body{
-    grid-template-columns: 20% auto auto;
+    grid-template-columns: auto auto 40%;
     grid-template-rows: auto auto auto;
 }
 
 .cabeca{
     grid-area: cc;
-    background-color: brown;
+    background-color: rgb(255, 0, 0);
 }
 
 .lado{
     grid-area: ld;
-    background-color: blueviolet;
+    background-color: rgb(255, 99, 99);
 }
 
 .meio{
@@ -41,9 +41,9 @@ body{
 .cabeca, .pezinho, .lado, .meio{
     padding: 15px;
 }
-
 /*--------------------------------------------------*/
 
+/* img do main. */
 main img{
     width: 40%;
     height: auto;
