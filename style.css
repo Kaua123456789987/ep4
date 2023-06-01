@@ -43,17 +43,18 @@ body{
     background-color: rgb(245, 222, 179);
 }
 
-/* img do main. */
+/* img do main tamanho. */
 main img{
     width: 40%;
     height: auto;
 }
-/* IMG header */
+/* IMG header tamanho */
 header img{
     width: 40%;
     height: auto;
 }
 
+/*textos*/
 header h1{
     text-align: center;
 }
